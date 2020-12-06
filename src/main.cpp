@@ -14,9 +14,9 @@ SoftwareSerial Serial1(10, 11);
 // Set  baud rate of so we can monitor output from esp.
 #define ESP8266_BAUD 9600
 
-const int redPin = 8;
-const int greenPin = 10;
-const int bluePin = 12;
+const int redPin = 7;
+const int greenPin = 8;
+const int bluePin = 9;
 
 // CHANGE THIS TO MATCH YOUR SETTINGS
 char ssid[] = "dom";
